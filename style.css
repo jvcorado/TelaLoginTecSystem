@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 100px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    border-radius: 20px;
+} 
+
+.columnOne{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 300px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.columnOne .logo{
+    margin: 30px;
+}
+.columnOne input{
+    background-color:rgb(255, 255, 255);
+    width: 250px;
+    height: 35px;
+    margin: 15px;
+    border: none;
+    padding-left: 5px;
+    border-bottom: 2px solid rgb(85,78,164);
+}
+
+.columnOne button{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+}
+
+.columnOne button:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.columnOne .button .entrar{
+    background-color: rgb(85,78,164);
+    border-radius: 5px;
+}
+
+.columnOne .button .sair{
+    background-color: rgba(221, 37, 37, 0.788);
+    border-radius: 5px;
+}
+.columnTwo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(85,78,164);
+
+}
+.columnTwo h1{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.columnTwo span{
+    color: yellow;
+}
+.columnTwo p{
+    text-align: center;
+    color: white;
+    font-size: 0.9em;
+    padding: 10px;
+}
+.columnTwo .vacina{
+    margin: 40px;
+}
